@@ -13,7 +13,7 @@ N/A
 To see the Javascript code, you can copy and paste this link into your browser: https://miloyang.github.io/Password-Generator
 
 The page should open as per below screenshots:
-![Screenshot of Portfolio Page](assets/Images/Password-Generator-Screenshot.png)
+![Screenshot of Portfolio Page](assets/images/Password-Generator-Screenshot.png)
 
 The Javascript code can be seen when you open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. Head into the Console tab, and there you will see the code. 
 
