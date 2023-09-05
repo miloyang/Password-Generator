@@ -1,5 +1,4 @@
-// Assignment code here
-
+//Creating an object to have the 4 different characters togerther
 var passwordCharacters = {
   "lowercaseCharacters": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
   "uppercaseCharacters": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
@@ -42,7 +41,6 @@ function generatePassword() {
   if (confirmSpecial === true) {
     pass = pass.concat(passwordCharacters.specialCharacters);
   }
-//console.log(pass);
 }
 
 // Get references to the #generate element
