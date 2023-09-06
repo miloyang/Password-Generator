@@ -19,5 +19,5 @@
 
 //If the user has choosen false for all 4 character requirements, alert to show "Invalid, please choose at least one character type."
 
-//Once all prompts have been entered, a random mix of characters that meet the required criteria to be displayed as an alert.
+//Once all prompts have been entered, a random mix of characters that meet the required criteria to be displayed on the page.
 
