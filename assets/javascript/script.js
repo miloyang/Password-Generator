@@ -54,6 +54,7 @@ function generatePassword() {
     completedPass.push(randomCharacter);
   }
 
+  // Using the join array to new string by concatenating all of the elements in this array.
   return completedPass.join('');
 }
 
