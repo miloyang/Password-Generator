@@ -48,7 +48,8 @@ function generatePassword() {
   // Creating a new array to randomize the values in the pass array, and generate only the required length as entered by user previously. 
   var completedPass = [];
 
-  for (i = 0; i <= characterLength; i++) {
+  // In the for loop, the i needs to start at 1 instead of 0 so that the character Length will appear as per user's required length.
+  for (i = 1; i <= characterLength; i++) {
     var randomPass = Math.floor(Math.random() * pass.length);
     var randomCharacter = pass[randomPass];
     completedPass.push(randomCharacter);
