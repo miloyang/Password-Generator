@@ -18,10 +18,15 @@ The page should open as per below screenshots:
 The Javascript code can be seen when you open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. Head into the Console tab, and there you will see the code. 
 
 When you click on the button to generate a password, you will be presented with a series of prompts for password criteria.  
+
 When prompted for the length of the password, you will be able to choose a length of at least 8 characters and no more than 128 characters.
-You will then be asked to confirm what characters you would like to include in your password, such as the inclusion of lowercase, uppercase, numeric and/or special characters. 
-After each confirm is answered, the input will be validated. At least one character type needs to be selected. 
-When all requirements are answered, a password that matches the selected criteria will be generated, and is displayed in an alert. 
+
+You will then be asked to confirm what characters you would like to include in your password, such as the inclusion of lowercase, uppercase, numeric and/or special characters.
+
+After each confirm is answered, the input will be validated. At least one character type needs to be selected.
+
+When all requirements are answered, a password that matches the selected criteria will be generated, and is displayed on the page.
+
 The page will have a responsive layout that adapts the viewport, when you resize the page or view the site on various screens and devices.
 
 ## Credits
